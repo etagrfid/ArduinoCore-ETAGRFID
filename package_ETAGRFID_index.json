@@ -16,11 +16,12 @@
                "category":"Arduino",
                "version":"1.1.0",
                "url":"https://github.com/jaywilhelm/ArduinoCore-ETAGRFID/raw/master/ArduinoCoreETAGRFID.tar.bz2",
-               "checksum":"SHA-256:d8663d39fe1b270fdd8fe134d84222c64a9017ee20e0b1ac5366a0de701590ab",
-               "size":"1779633",
+               "checksum":"SHA-256:357adc347477d2b8355d925104b7f80d8fd126aaa1423843ac8cc6c4f19f3a70",
+               "size":"1779637",
                "boards":[
                   {
-                     "name":"ArduinoZero"
+                     "name":"ETAGRFID",
+						"name":"ETAGRFID2 D21"
                   }
                ],
                "toolsDependencies":[

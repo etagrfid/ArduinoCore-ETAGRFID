@@ -14,10 +14,10 @@
                "name":"ArduinoETAGRFIDcore",
                "architecture":"samd",
                "category":"Arduino",
-               "version":"1.0.1",
+               "version":"1.1.0",
                "url":"https://github.com/jaywilhelm/ArduinoCore-ETAGRFID/raw/master/ArduinoCoreETAGRFID.tar.bz2",
-               "checksum":"SHA-256:d277ce339fed3398eb8eff8222a4243e0030dad42d9735eb2de8b0068d1cdb4c",
-               "size":"1777741",
+               "checksum":"SHA-256:d8663d39fe1b270fdd8fe134d84222c64a9017ee20e0b1ac5366a0de701590ab",
+               "size":"1779633",
                "boards":[
                   {
                      "name":"ArduinoZero"

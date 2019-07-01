@@ -20,8 +20,7 @@
                "size":"1779637",
                "boards":[
                   {
-                     "name":"ETAGRFID",
-						"name":"ETAGRFID2 D21"
+                     "name":"ETAGRFID, ETAGRFID v2 D21J",
                   }
                ],
                "toolsDependencies":[

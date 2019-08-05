@@ -1,11 +1,11 @@
 import tarfile
 import os
-
+VERSION = "1.1.3"
 fileNames = os.listdir("ArduinoCore-ETAGRFID")
 print(fileNames)
 
 
-tar = tarfile.open("ArduinoCoreETAGRFID.tar.bz2", "w:bz2")
+tar = tarfile.open("ArduinoCoreETAGRFID_"+VERSION+".tar.bz2", "w:bz2")
 for name in fileNames:
     tar.add("ArduinoCore-ETAGRFID/" + name)
 tar.close()
@@ -14,7 +14,7 @@ tar.close()
 import hashlib
 BLOCKSIZE = 65536
 hasher = hashlib.sha256()
-with open('ArduinoCoreETAGRFID.tar.bz2', 'rb') as afile:
+with open('ArduinoCoreETAGRFID_'+VERSION+'.tar.bz2', 'rb') as afile:
     buf = afile.read(BLOCKSIZE)
     while len(buf) > 0:
         hasher.update(buf)
@@ -22,12 +22,9 @@ with open('ArduinoCoreETAGRFID.tar.bz2', 'rb') as afile:
 checksum = hasher.hexdigest()
 print(checksum)
 
-fileSize = os.path.getsize('ArduinoCoreETAGRFID.tar.bz2')
+fileSize = os.path.getsize('ArduinoCoreETAGRFID_'+VERSION+'.tar.bz2')
 print(fileSize)
 
-
-
-# JSONstring = '{"packages":[{"name":"ArduinoCore-ETAGRFID","maintainer":"ArduinoBetatesting","websiteURL":"http://www.arduino.cc/","email":"packages@arduino.cc","help":{"online":"http://www.arduino.cc/en/Reference/HomePage"},"platforms":[{"archiveFileName":"package_ETAGRFID_index.tar.bz2","name":"ArduinoETAGRFIDcore","architecture":"samd","category":"Arduino",'
 JSONstring = '{\n'
 JSONstring += '   "packages":[\n'
 JSONstring += '      {\n'
@@ -48,12 +45,12 @@ JSONstring += '                  {\n'
 JSONstring += '                     "name": "ETAGRFID v2 D21J"\n'
 JSONstring += '                  }\n'
 JSONstring += '               ],\n'
-JSONstring += '               "archiveFileName":"package_ETAGRFID_index.tar.bz2",\n'
+JSONstring += '               "archiveFileName":"package_ETAGRFID_index_'+VERSION+'.tar.bz2",\n'
 JSONstring += '               "name":"ArduinoETAGRFIDcore",\n'
 JSONstring += '               "architecture":"samd",\n'
 JSONstring += '               "category":"Arduino",\n'
 JSONstring += '               "version":"1.1.3",\n'
-JSONstring += '               "url":"https://github.com/jaywilhelm/ArduinoCore-ETAGRFID/raw/master/ArduinoCoreETAGRFID.tar.bz2",\n'
+JSONstring += '               "url":"https://github.com/jaywilhelm/ArduinoCore-ETAGRFID/raw/master/ArduinoCoreETAGRFID_'+VERSION+'.tar.bz2",\n'
 JSONstring += '               "checksum":"SHA-256:' + checksum + '",\n'
 JSONstring += '               "size":"' + str(fileSize) + '",\n'
 JSONstring += '               "toolsDependencies":[\n'

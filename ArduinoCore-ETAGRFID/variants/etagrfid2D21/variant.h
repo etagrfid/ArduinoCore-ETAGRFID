@@ -135,9 +135,9 @@ static const uint8_t DAC0 = PIN_DAC0;
 #define PIN_SPI_MISO         (18u)
 #define PIN_SPI_MOSI         (21u)
 #define PIN_SPI_SCK          (20u)
-#define PERIPH_SPI           sercom4
-#define PAD_SPI_TX           SPI_PAD_2_SCK_3
-#define PAD_SPI_RX           SERCOM_RX_PAD_0
+#define PERIPH_SPI           sercom2
+#define PAD_SPI_TX           SPI_PAD_0_SCK_1
+#define PAD_SPI_RX           SERCOM_RX_PAD_3
 
 static const uint8_t SS	  = 14;	//GND
 static const uint8_t MOSI = PIN_SPI_MOSI;

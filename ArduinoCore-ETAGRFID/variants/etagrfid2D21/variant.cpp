@@ -82,8 +82,8 @@ const PinDescription g_APinDescription[]=
 
   // 30..31 - RX/TX LEDS -> legacy, set to AUX IO pins (PORTB 30, PORTB 31)
   // --------------------
-  { PORTB, 30, PIO_OUTPUT, PIN_ATTR_DIGITAL, No_ADC_Channel, NOT_ON_PWM, NOT_ON_TIMER, EXTERNAL_INT_NONE }, // used as output only
-  { PORTB, 31, PIO_PWM, (PIN_ATTR_DIGITAL|PIN_ATTR_PWM), No_ADC_Channel, PWM2_CH1, NOT_ON_TIMER, EXTERNAL_INT_NONE }, // used as output only
+  { PORTB, 30, PIO_OUTPUT, PIN_ATTR_DIGITAL, No_ADC_Channel, NOT_ON_PWM, NOT_ON_TIMER, EXTERNAL_INT_14 }, // used as output only
+  { PORTB, 31, PIO_PWM, (PIN_ATTR_DIGITAL|PIN_ATTR_PWM), No_ADC_Channel, PWM2_CH1, NOT_ON_TIMER, EXTERNAL_INT_15 }, // used as output only
 
   // 32..33 - USB
   // --------------------
@@ -109,6 +109,10 @@ const PinDescription g_APinDescription[]=
 
   // 43 - LED
   { PORTA, 27, PIO_OUTPUT, PIN_ATTR_DIGITAL, No_ADC_Channel, NOT_ON_PWM, NOT_ON_TIMER, EXTERNAL_INT_15 } // LED
+  { PORTA, 5, PIO_OUTPUT, PIN_ATTR_DIGITAL, No_ADC_Channel, NOT_ON_PWM, NOT_ON_TIMER, EXTERNAL_INT_5 } // FlashCS
+  { PORTA, 6, PIO_OUTPUT, PIN_ATTR_DIGITAL, No_ADC_Channel, NOT_ON_PWM, NOT_ON_TIMER, EXTERNAL_INT_6 } // SD Fet
+  { PORTA, 21, PIO_OUTPUT, PIN_ATTR_DIGITAL, No_ADC_Channel, NOT_ON_PWM, NOT_ON_TIMER, EXTERNAL_INT_5 } // SD CS
+
 
 } ;
 

@@ -1,2 +1,14 @@
 .DS_Store
 bootloaders/*/build/
+*.o
+*.d
+*.bin
+*.elf
+*.hex
+*.lss
+*.map
+*.srec
+*.eep
+bootloaders/etagrfid/Bootloader_D21/.vs/
+bootloaders\etagrfid\Bootloader_D21\.vs\Bootloader_D21\v14\.atsuo
+ArduinoCore-ETAGRFID/bootloaders/etagrfid/Bootloader_D21/.vs/Bootloader_D21/v14/.atsuo

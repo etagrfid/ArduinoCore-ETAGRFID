@@ -1,6 +1,6 @@
 import tarfile
 import os
-VERSION = "1.1.3"
+VERSION = "1.1.4"
 fileNames = os.listdir("ArduinoCore-ETAGRFID")
 print(fileNames)
 
@@ -49,7 +49,7 @@ JSONstring += '               "archiveFileName":"package_ETAGRFID_index_'+VERSIO
 JSONstring += '               "name":"ArduinoETAGRFIDcore",\n'
 JSONstring += '               "architecture":"samd",\n'
 JSONstring += '               "category":"Arduino",\n'
-JSONstring += '               "version":"1.1.3",\n'
+JSONstring += '               "version":"'+VERSION+'",\n'
 JSONstring += '               "url":"https://github.com/jaywilhelm/ArduinoCore-ETAGRFID/raw/master/ArduinoCoreETAGRFID_'+VERSION+'.tar.bz2",\n'
 JSONstring += '               "checksum":"SHA-256:' + checksum + '",\n'
 JSONstring += '               "size":"' + str(fileSize) + '",\n'

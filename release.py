@@ -1,7 +1,19 @@
 import tarfile
 import os
-VERSION = "1.1.4"
+import glob
+
+VERSION = "1.1.5"
 fileNames = os.listdir("ArduinoCore-ETAGRFID")
+
+fileList = glob.glob("*.tar.bz2")
+print(fileList)
+for efile in fileList:
+    try:
+        print("Removing file: " + efile)
+        os.remove(efile)
+    except:
+        print("could not delete: " + efile)
+
 print(fileNames)
 
 

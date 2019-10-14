@@ -18,14 +18,14 @@
                      "name": "ETAGRFID v2 D21J"
                   }
                ],
-               "archiveFileName":"package_ETAGRFID_index_1.1.4.tar.bz2",
+               "archiveFileName":"package_ETAGRFID_index_1.1.5.tar.bz2",
                "name":"ArduinoETAGRFIDcore",
                "architecture":"samd",
                "category":"Arduino",
-               "version":"1.1.4",
-               "url":"https://github.com/jaywilhelm/ArduinoCore-ETAGRFID/raw/master/ArduinoCoreETAGRFID_1.1.4.tar.bz2",
-               "checksum":"SHA-256:0c8cbdf7c9bbbdb77581e881e9ab38f02b98467393a148b4701d0da43b66acf8",
-               "size":"1915933",
+               "version":"1.1.5",
+               "url":"https://github.com/jaywilhelm/ArduinoCore-ETAGRFID/raw/master/ArduinoCoreETAGRFID_1.1.5.tar.bz2",
+               "checksum":"SHA-256:29477d5d2297e99aee18a587729053012a21c27a7efb0c47a2bb83fd4a915570",
+               "size":"1915973",
                "toolsDependencies":[
                   {
                      "packager":"arduino",

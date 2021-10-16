@@ -12,9 +12,6 @@
             {
                "boards":[
                   {
-                     "name": "ETAGRFID"
-                  },
-                  {
                      "name": "ETAGRFID v2 D21J"
                   }
                ],

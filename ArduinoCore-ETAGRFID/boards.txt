@@ -66,3 +66,5 @@ etagrfid2D21.build.openocdscript=openocd_scripts/arduino_zero.cfg
 etagrfid2D21.bootloader.tool=openocd-withbootsize
 etagrfid2D21.bootloader.low_fuses=0xff
 etagrfid2D21.bootloader.file=etagrfid/Bootloader_D21_M0_150515.hex
+
+

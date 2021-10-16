@@ -2,7 +2,7 @@ import tarfile
 import os
 import glob
 
-VERSION = "1.1.5"
+VERSION = "1.1.6"
 fileNames = os.listdir("ArduinoCore-ETAGRFID")
 
 fileList = glob.glob("*.tar.bz2")

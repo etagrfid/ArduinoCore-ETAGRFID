@@ -2,7 +2,7 @@ import tarfile
 import os
 import glob
 
-VERSION = "1.1.6"
+VERSION = "1.1.7"
 fileNames = os.listdir("ArduinoCore-ETAGRFID")
 
 fileList = glob.glob("*.tar.bz2")
@@ -51,10 +51,10 @@ JSONstring += '         "platforms":[\n'
 JSONstring += '            {\n'
 JSONstring += '               "boards":[\n'
 JSONstring += '                  {\n'
-JSONstring += '                     "name": "ETAGRFID"\n'
+JSONstring += '                     "name": "ETAGRFID v1 D21G18A"\n'
 JSONstring += '                  },\n'
 JSONstring += '                  {\n'
-JSONstring += '                     "name": "ETAGRFID v2 D21J"\n'
+JSONstring += '                     "name": "ETAGRFID v2 D21J18A"\n'
 JSONstring += '                  }\n'
 JSONstring += '               ],\n'
 JSONstring += '               "archiveFileName":"package_ETAGRFID_index_'+VERSION+'.tar.bz2",\n'

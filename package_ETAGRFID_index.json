@@ -10,7 +10,7 @@
          },
          "tools":[
 				{
-          "name": "CMSIS-Atmel-ETAGRFID",
+          "name": "CMSIS-Atmel_etag",
           "version": "1.2.0",
           "systems":
           [
@@ -106,7 +106,7 @@
                   },
                   {
                      "packager":"ETAGRFID",
-                     "name":"CMSIS-Atmel-ETAGRFID",
+                     "name":"CMSIS-Atmel_etag",
                      "version":"1.2.0"
                   },
                   {

@@ -8,58 +8,56 @@
          "help":{
             "online":"http://www.arduino.cc/en/Reference/HomePage"
          },
-         "tools": [
-	 {
-          "name": "CMSIS-Atmel_etag",
-          "version": "1.2.0xxx",
-          "systems":
-          [
-            {
-              "host": "i686-mingw32",
-              "url": "https://github.com/arduino/ArduinoModule-CMSIS-Atmel/releases/download/v1.2.0/CMSIS-Atmel_etag_1.2.0.tar.bz2",
-              "archiveFileName": "CMSIS-Atmel_etag_1.2.0.tar.bz2",
-              "SHA": "SHA-256:99893a7dd21cfdd8be47f6237633b5ebd4dde0cc1b5582b3eea62a4f52aeb973",
-              "size": "2109064"
-            },
-            {
-              "host": "x86_64-apple-darwin",
-              "url": "https://github.com/jaywilhelm/ArduinoModule-CMSIS-Atmel/releases/download/etag-v1.2.0/CMSIS-Atmel_etag_1.2.0.tar.bz2",
-              "archiveFileName": "CMSIS-Atmel_etag_1.2.0.tar.bz2",
-              "SHA": "SHA-256:99893a7dd21cfdd8be47f6237633b5ebd4dde0cc1b5582b3eea62a4f52aeb973",
-              "size": "2109064"
-            },
-            {
-              "host": "x86_64-pc-linux-gnu",
-              "url": "https://github.com/jaywilhelm/ArduinoModule-CMSIS-Atmel/releases/download/etag-v1.2.0/CMSIS-Atmel_etag_1.2.0.tar.bz2",
-              "archiveFileName": "CMSIS-Atmel_etag_1.2.0.tar.bz2",
-              "SHA": "SHA-256:99893a7dd21cfdd8be47f6237633b5ebd4dde0cc1b5582b3eea62a4f52aeb973",
-              "size": "2109064"
-            },
-            {
-              "host": "i686-pc-linux-gnu",
-              "url": "https://github.com/jaywilhelm/ArduinoModule-CMSIS-Atmel/releases/download/etag-v1.2.0/CMSIS-Atmel_etag_1.2.0.tar.bz2",
-              "archiveFileName": "CMSIS-Atmel_etag_1.2.0.tar.bz2",
-              "SHA": "SHA-256:99893a7dd21cfdd8be47f6237633b5ebd4dde0cc1b5582b3eea62a4f52aeb973",
-              "size": "2109064"
-            },
-            {
-              "host": "arm-linux-gnueabihf",
-              "url": "https://github.com/jaywilhelm/ArduinoModule-CMSIS-Atmel/releases/download/etag-v1.2.0/CMSIS-Atmel_etag_1.2.0.tar.bz2",
-              "archiveFileName": "CMSIS-Atmel_etag_1.2.0.tar.bz2",
-              "SHA": "SHA-256:99893a7dd21cfdd8be47f6237633b5ebd4dde0cc1b5582b3eea62a4f52aeb973",
-              "size": "2109064"
-            },
-            {
-              "host": "all",
-              "url": "https://github.com/jaywilhelm/ArduinoModule-CMSIS-Atmel/releases/download/etag-v1.2.0/CMSIS-Atmel_etag_1.2.0.tar.bz2",
-              "archiveFileName": "CMSIS-Atmel_etag_1.2.0.tar.bz2",
-              "SHA": "SHA-256:99893a7dd21cfdd8be47f6237633b5ebd4dde0cc1b5582b3eea62a4f52aeb973",
-              "size": "2109064"
-            }
-	       ]
-	      }
-		 ],
-	 "platforms":[
+			"tools":[
+			{
+			  "name": "CMSIS-Atmel-ETAGRFID",
+			  "version": "1.2.0",
+			  "systems":
+			  [
+				{
+				  "host": "i686-mingw32",
+				  "url": "https://github.com/jaywilhelm/ArduinoModule-CMSIS-Atmel/releases/download/etag-v1.2.0/CMSIS-Atmel_etag_1.2.0.tar.bz2",
+				  "archiveFileName": "CMSIS-Atmel_etag_1.2.0.tar.bz2",
+				  "SHA": "SHA-256:99893a7dd21cfdd8be47f6237633b5ebd4dde0cc1b5582b3eea62a4f52aeb973",
+				  "size": "2109064"
+				},
+				{
+				  "host": "x86_64-apple-darwin",
+				  "url": "https://github.com/jaywilhelm/ArduinoModule-CMSIS-Atmel/releases/download/etag-v1.2.0/CMSIS-Atmel_etag_1.2.0.tar.bz2",
+				  "archiveFileName": "CMSIS-Atmel_etag_1.2.0.tar.bz2",
+				  "SHA": "SHA-256:99893a7dd21cfdd8be47f6237633b5ebd4dde0cc1b5582b3eea62a4f52aeb973",
+				  "size": "2109064"
+				},
+				{
+				  "host": "x86_64-pc-linux-gnu",
+				  "url": "https://github.com/jaywilhelm/ArduinoModule-CMSIS-Atmel/releases/download/etag-v1.2.0/CMSIS-Atmel_etag_1.2.0.tar.bz2",
+				  "archiveFileName": "CMSIS-Atmel_etag_1.2.0.tar.bz2",
+				  "SHA": "SHA-256:99893a7dd21cfdd8be47f6237633b5ebd4dde0cc1b5582b3eea62a4f52aeb973",
+				  "size": "2109064"
+				},
+				{
+				  "host": "i686-pc-linux-gnu",
+				  "url": "https://github.com/jaywilhelm/ArduinoModule-CMSIS-Atmel/releases/download/etag-v1.2.0/CMSIS-Atmel_etag_1.2.0.tar.bz2",
+				  "archiveFileName": "CMSIS-Atmel_etag_1.2.0.tar.bz2",
+				  "SHA": "SHA-256:99893a7dd21cfdd8be47f6237633b5ebd4dde0cc1b5582b3eea62a4f52aeb973",
+				  "size": "2109064"
+				},
+				{
+				  "host": "arm-linux-gnueabihf",
+				  "url": "https://github.com/jaywilhelm/ArduinoModule-CMSIS-Atmel/releases/download/etag-v1.2.0/CMSIS-Atmel_etag_1.2.0.tar.bz2",
+				  "archiveFileName": "CMSIS-Atmel_etag_1.2.0.tar.bz2",
+				  "SHA": "SHA-256:99893a7dd21cfdd8be47f6237633b5ebd4dde0cc1b5582b3eea62a4f52aeb973",
+				  "size": "2109064"
+				},
+				{
+				  "host": "all",
+				  "url": "https://github.com/jaywilhelm/ArduinoModule-CMSIS-Atmel/releases/download/etag-v1.2.0/CMSIS-Atmel_etag_1.2.0.tar.bz2",
+				  "archiveFileName": "CMSIS-Atmel_etag_1.2.0.tar.bz2",
+				  "SHA": "SHA-256:99893a7dd21cfdd8be47f6237633b5ebd4dde0cc1b5582b3eea62a4f52aeb973",
+				  "size": "2109064"
+				}
+			  ],
+			"platforms":[
             {
                "boards":[
                   {
@@ -81,8 +79,8 @@
                "category":"ETAGRFID",
                "version":"1.2.1",
                "url":"https://github.com/jaywilhelm/ArduinoCore-ETAGRFID/releases/download/etag-v1.2.1/ArduinoCoreETAGRFID_1.2.1.tar.bz2",
-               "checksum":"SHA-256:d2001a15f198be690c11d5eaa5ae747cf22ac580abf86c03699ebf7d2190e727",
-               "size":"2704421",
+               "checksum":"SHA-256:a62435b6c30dc770c76f8eea548367ececf8da290b21e5a96486f2a77f1a74c7",
+               "size":"2713721",
                "toolsDependencies":[
                   {
                      "packager":"arduino",
@@ -105,9 +103,9 @@
                      "version":"4.5.0"
                   },
                   {
-                     "packager":"ETAGRFID",
-                     "name":"CMSIS-Atmel_etag",
-                     "version":"1.2.0xxx"
+                     "packager":"arduino",
+                     "name":"CMSIS-Atmel-ETAGRFID",
+                     "version":"1.2.0"
                   },
                   {
                      "packager":"arduino",
@@ -115,9 +113,10 @@
                      "version":"1.2.0"
                   }
                ]
-            }        
-        ]
+            }
+         ]
+			}
+         ]
       }
    ]
 }
-

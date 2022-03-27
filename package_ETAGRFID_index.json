@@ -1,15 +1,15 @@
 {
    "packages":[
       {
-         "name":"ArduinoCore-ETAGRFID",
+         "name":"ETAGRFID",
          "maintainer":"JayWilhelm",
          "websiteURL":"http://github.com/jaywilhelm",
          "email":"jwilhelm@ohio.edu",
          "help":{
             "online":"http://www.arduino.cc/en/Reference/HomePage"
          },
-         "tools":[
-				{
+         "tools": [
+	 {
           "name": "CMSIS-Atmel_etag",
           "version": "1.2.0xxx",
           "systems":

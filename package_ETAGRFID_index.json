@@ -1,7 +1,7 @@
 {
    "packages":[
       {
-         "name":"ArduinoCore-ETAGRFID",
+         "name":"ETAGRFID",
          "maintainer":"JayWilhelm",
          "websiteURL":"http://github.com/jaywilhelm",
          "email":"jwilhelm@ohio.edu",

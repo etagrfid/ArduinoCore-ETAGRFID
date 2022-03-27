@@ -6,7 +6,7 @@
          "websiteURL":"http://github.com/jaywilhelm",
          "email":"jwilhelm@ohio.edu",
          "help":{
-            "online":"http://www.arduino.cc/en/Reference/HomePage"
+            "online":"https://github.com/etagrfid"
          },
 			"tools":[
 			{
@@ -103,7 +103,7 @@
                      "version":"4.5.0"
                   },
                   {
-                     "packager":"arduino",
+                     "packager":"ETAGRFID",
                      "name":"CMSIS-Atmel-ETAGRFID",
                      "version":"1.2.0"
                   },

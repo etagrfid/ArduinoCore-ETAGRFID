@@ -75,47 +75,47 @@
               "host": "i686-mingw32",
               "url": "https://github.com/jaywilhelm/ArduinoModule-CMSIS-Atmel/releases/download/etag-v1.2.0/CMSIS-Atmel_etag_1.2.0.tar.bz2",
               "archiveFileName": "CMSIS-Atmel_etag_1.2.0.tar.bz2",
-              "SHA": "SHA-256:99893a7dd21cfdd8be47f6237633b5ebd4dde0cc1b5582b3eea62a4f52aeb973",
+              "SHA": "SHA-256:ad06a1d864b79981728882a0a1272ff4dc0b29ae4e056f3f22f3ed449a6c65b8",
               "size": "2109064"
             },
             {
               "host": "x86_64-apple-darwin",
               "url": "https://github.com/jaywilhelm/ArduinoModule-CMSIS-Atmel/releases/download/etag-v1.2.0/CMSIS-Atmel_etag_1.2.0.tar.bz2",
               "archiveFileName": "CMSIS-Atmel_etag_1.2.0.tar.bz2",
-              "SHA": "SHA-256:99893a7dd21cfdd8be47f6237633b5ebd4dde0cc1b5582b3eea62a4f52aeb973",
+              "SHA": "SHA-256:ad06a1d864b79981728882a0a1272ff4dc0b29ae4e056f3f22f3ed449a6c65b8",
               "size": "2109064"
             },
             {
               "host": "x86_64-pc-linux-gnu",
               "url": "https://github.com/jaywilhelm/ArduinoModule-CMSIS-Atmel/releases/download/etag-v1.2.0/CMSIS-Atmel_etag_1.2.0.tar.bz2",
               "archiveFileName": "CMSIS-Atmel_etag_1.2.0.tar.bz2",
-              "SHA": "SHA-256:99893a7dd21cfdd8be47f6237633b5ebd4dde0cc1b5582b3eea62a4f52aeb973",
+              "SHA": "SHA-256:ad06a1d864b79981728882a0a1272ff4dc0b29ae4e056f3f22f3ed449a6c65b8",
               "size": "2109064"
             },
             {
               "host": "i686-pc-linux-gnu",
               "url": "https://github.com/jaywilhelm/ArduinoModule-CMSIS-Atmel/releases/download/etag-v1.2.0/CMSIS-Atmel_etag_1.2.0.tar.bz2",
               "archiveFileName": "CMSIS-Atmel_etag_1.2.0.tar.bz2",
-              "SHA": "SHA-256:99893a7dd21cfdd8be47f6237633b5ebd4dde0cc1b5582b3eea62a4f52aeb973",
+              "SHA": "SHA-256:ad06a1d864b79981728882a0a1272ff4dc0b29ae4e056f3f22f3ed449a6c65b8",
               "size": "2109064"
             },
             {
               "host": "arm-linux-gnueabihf",
               "url": "https://github.com/jaywilhelm/ArduinoModule-CMSIS-Atmel/releases/download/etag-v1.2.0/CMSIS-Atmel_etag_1.2.0.tar.bz2",
               "archiveFileName": "CMSIS-Atmel_etag_1.2.0.tar.bz2",
-              "SHA": "SHA-256:99893a7dd21cfdd8be47f6237633b5ebd4dde0cc1b5582b3eea62a4f52aeb973",
+              "SHA": "SHA-256:ad06a1d864b79981728882a0a1272ff4dc0b29ae4e056f3f22f3ed449a6c65b8",
               "size": "2109064"
             },
             {
               "host": "all",
               "url": "https://github.com/jaywilhelm/ArduinoModule-CMSIS-Atmel/releases/download/etag-v1.2.0/CMSIS-Atmel_etag_1.2.0.tar.bz2",
               "archiveFileName": "CMSIS-Atmel_etag_1.2.0.tar.bz2",
-              "SHA": "SHA-256:99893a7dd21cfdd8be47f6237633b5ebd4dde0cc1b5582b3eea62a4f52aeb973",
+              "SHA": "SHA-256:ad06a1d864b79981728882a0a1272ff4dc0b29ae4e056f3f22f3ed449a6c65b8",
               "size": "2109064"
             }
           ]
         }
-	    ]
+      ]
     }
   ]
 }

@@ -24,14 +24,14 @@
                      "name": "ETAGRFID v2.5 D21J17D"
                   }
                ],
-               "archiveFileName":"ArduinoCoreETAGRFID_1.2.1.tar.bz2",
+               "archiveFileName":"$FILENAME$",
                "name":"ArduinoETAGRFIDcore",
                "architecture":"samd",
                "category":"Arduino",
-               "version":"1.2.1",
-               "url":"https://github.com/jaywilhelm/ArduinoCore-ETAGRFID/releases/download/etag-v1.2.1/ArduinoCoreETAGRFID_1.2.1.tar.bz2",
-               "checksum":"d2001a15f198be690c11d5eaa5ae747cf22ac580abf86c03699ebf7d2190e727",
-               "size":"2704421",
+               "version":"$VERSION$",
+               "url":"$URL$",
+               "checksum":"$SHA$",
+               "size":"$SIZE$",
                "toolsDependencies":[
                   {
                      "packager":"arduino",
@@ -54,7 +54,7 @@
                      "version":"4.5.0"
                   },
                   {
-                     "packager":"ETAGRFID",
+                     "packager":"arduino",
                      "name":"CMSIS-Atmel-ETAG",
                      "version":"1.2.0"
                   },

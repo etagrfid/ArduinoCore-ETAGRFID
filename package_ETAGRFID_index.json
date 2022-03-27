@@ -8,7 +8,30 @@
          "help":{
             "online":"http://www.arduino.cc/en/Reference/HomePage"
          },
-         "platforms":[
+         "tools":[
+		{
+		  "name": "CMSIS-Atmel-ETAG",
+		  "version": "1.2.0",
+		  "systems":
+		  [
+			{
+			  "host": "arm-linux-gnueabihf",
+			  "url": "https://github.com/jaywilhelm/ArduinoModule-CMSIS-Atmel/releases/download/etag-v1.2.0/CMSIS-Atmel1.2.0.tar.bz2",
+			  "archiveFileName": "CMSIS-Atmel-ETAG_1.2.0.tar.bz2",
+			  "checksum": "SHA-256:0f7938eea08ecb7eba00b3f84df3a717efdfbb135f9933efd9e5e301c9843bcf",
+			  "size": "2128329"
+			},
+			{
+			  "host": "all",
+			  "url": "https://github.com/jaywilhelm/ArduinoModule-CMSIS-Atmel/releases/download/etag-v1.2.0/CMSIS-Atmel1.2.0.tar.bz2",
+			  "archiveFileName": "CMSIS-Atmel1.2.0.tar.bz2",
+			  "checksum": "SHA-256:0f7938eea08ecb7eba00b3f84df3a717efdfbb135f9933efd9e5e301c9843bcf",
+			  "size": "2128329"
+			}
+		  ]
+		}
+	    ],
+	   "platforms":[
             {
                "boards":[
                   {
@@ -65,29 +88,6 @@
                   }
                ]
             }
-         ],
-         "tools":[
-			{
-			  "name": "CMSIS-Atmel-ETAG",
-			  "version": "1.2.0",
-			  "systems":
-			  [
-				{
-				  "host": "arm-linux-gnueabihf",
-				  "url": "https://github.com/jaywilhelm/ArduinoModule-CMSIS-Atmel/releases/download/etag-v1.2.0/CMSIS-Atmel1.2.0.tar.bz2",
-				  "archiveFileName": "CMSIS-Atmel-ETAG_1.2.0.tar.bz2",
-				  "checksum": "SHA-256:0f7938eea08ecb7eba00b3f84df3a717efdfbb135f9933efd9e5e301c9843bcf",
-				  "size": "2128329"
-				},
-				{
-				  "host": "all",
-				  "url": "https://github.com/jaywilhelm/ArduinoModule-CMSIS-Atmel/releases/download/etag-v1.2.0/CMSIS-Atmel1.2.0.tar.bz2",
-				  "archiveFileName": "CMSIS-Atmel1.2.0.tar.bz2",
-				  "checksum": "SHA-256:0f7938eea08ecb7eba00b3f84df3a717efdfbb135f9933efd9e5e301c9843bcf",
-				  "size": "2128329"
-				}
-			  ]
-			}
          ]
       }
    ]

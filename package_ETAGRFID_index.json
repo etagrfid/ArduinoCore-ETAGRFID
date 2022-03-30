@@ -29,9 +29,9 @@
           "architecture": "samd",
           "category": "ETAGRFID",
           "version": "1.2.1",
-          "url": "https://github.com/jaywilhelm/ArduinoCore-ETAGRFID/releases/download/etag-v1.2.1/ArduinoCoreETAGRFID_1.2.1.tar.bz2",
-          "checksum": "SHA-256:a62435b6c30dc770c76f8eea548367ececf8da290b21e5a96486f2a77f1a74c7",
-          "size": "2713721",
+          "url": "https://github.com/jaywilhelm/ArduinoCore-ETAGRFID/raw/master/ArduinoCoreETAGRFID_1.2.0.tar.bz2",
+          "checksum": "SHA-256:6f6ed693317c86e24e0992d00728792037b64cb3ee19002f5987eb4c3c057011",
+          "size": "2861167",
           "toolsDependencies": [
             {
               "packager": "arduino",

@@ -2,7 +2,7 @@ import tarfile
 import os
 import glob
 
-VERSION = "1.2.1"
+VERSION = "1.2.2"
 
 ROOT_PROJECT_DIRNAME = "ArduinoCore-ETAGRFID"
 FILENAME = 'ArduinoCoreETAGRFID_'+VERSION+'.tar.bz2'

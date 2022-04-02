@@ -30,8 +30,8 @@
           "category": "ETAGRFID",
           "version": "1.2.2",
           "url": "https://github.com/jaywilhelm/ArduinoCore-ETAGRFID/releases/download/etag-v1.2.2/ArduinoCoreETAGRFID_1.2.2.tar.bz2",
-          "checksum": "SHA-256:a7ec9161344439d4ad8d4c21bc22a55388fa6738be03a586ad55a15fea8ee142",
-          "size": "3780121",
+          "checksum": "SHA-256:342f9e96ca65af69ae75da9ab5023045586a7a50bd409cb7f6fe36415816f423",
+          "size": "3779315",
           "toolsDependencies": [
             {
               "packager": "arduino",
